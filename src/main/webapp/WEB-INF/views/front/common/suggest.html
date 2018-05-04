@@ -1,0 +1,18 @@
+<div class="j-suggestWindow g-popup g-suggest">
+    <div class="popupContainer">
+        <div class="popupHead"><span>意见反馈</span><a href="javascript:;" class="j-popupClose popupClose">x</a></div>
+        <div class="j-suggestBox popupBox">
+            <form action="/main/info.html" method="post" id="j-suggestForm">
+                <input type="hidden" value="suggest" name="type" />
+                <dl>
+                    <dd><span class="title f-left">问题描述</span><b class="f-cRed f-left">*</b></dd>
+                    <dd><textarea placeholder="如遇到任何问题或建议，欢迎您及时告诉我们..." class="ta" name="content" datatype="*2-100" errormsg="问题或建议需2-100个字符" nullmsg="请填写问题或建议"></textarea></dd>
+                    <dd><span class="title f-left">联系QQ</span></dd>
+                    <dd><input type="text" name="qq" class="ipt" placeholder="QQ号码" datatype="qq" errormsg="QQ号码格式有误" nullmsg="请填写QQ号码" style="width:323px;" /></dd>
+                    <dd class="j-suggestCode f-mt10"></dd>
+                    <dd class="f-mt10"><input id="j-suggestFormSubmit" type="button" class="btn-red" value="提交" /></dd>
+                </dl>
+            </form>
+        </div>
+    </div>
+</div>
